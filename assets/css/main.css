@@ -1,0 +1,52 @@
+html{
+    font-size: 100%;
+
+}
+
+body{
+    background-color: #FFD44B;
+}
+
+    /*slogan*/
+
+.header{
+    font-family: ComicSansMS;
+    font-size: 8em;
+    color: #0E0E0E;
+    letter-spacing: 0.01em;
+    padding: 0% 10% 0% 20%;
+}
+
+
+    /*nav bar */
+.nav{
+}
+
+.nav ul{
+
+    padding: 0% 0% 0% 12%;
+}
+
+.nav ul li{
+    float: left;
+    padding: 0rem 1rem 0rem 9rem;
+    display: inline-block;
+}
+
+.nav ul li a{
+    font-family: ComicSansMS;
+    font-size: 1.5em;
+    color: #0E0E0E;
+    letter-spacing: 0.81px;
+    text-decoration: none;
+    float: left;
+
+}
+
+.nav ul li a:hover{
+    /* Rectangle 2: */
+    background: #000000;
+    border-radius: 2rem;
+    box-shadow: 0 5px 20px rgba(41, 99, 255, 0.30);
+    color: #FFD44B;
+}
