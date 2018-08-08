@@ -1,9 +1,13 @@
 html{
     font-size: 100%;
 
+
+
 }
 
 body{
+    font-size: 1rem;
+    line-height: 1.5;
     background-color: #FFD44B;
 }
 
@@ -49,4 +53,31 @@ body{
     border-radius: 2rem;
     box-shadow: 0 5px 20px rgba(41, 99, 255, 0.30);
     color: #FFD44B;
+}
+
+
+/*contact css*/
+.myPic *{
+
+    vertical-align: middle;
+}
+
+.myPic .intro{
+    font-family: ComicSansMS;
+    font-size: 36px;
+    letter-spacing: 0.81px;
+}
+
+.myPic .place{
+    font-family: ComicSansMS;
+    font-size: 14px;
+    letter-spacing: 0.81px;
+}
+
+.sites *{
+    vertical-align: middle;
+    font-family: ComicSansMS;
+    font-size: 36px;
+    letter-spacing: 0.81px;
+    text-decoration: none;
 }
